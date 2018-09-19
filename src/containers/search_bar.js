@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+// bring in connect tool from react-redux
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { fetchWeather } from '../actions/index';
 
 // searchbar component will also contain the submit button 
 export default class SearchBar extends Component {
@@ -21,6 +25,7 @@ export default class SearchBar extends Component {
         event.preventDefault(); // tells the browser not to submit on enter key
         
         // we need to go fetch weather data
+
     }
 
     render() {
