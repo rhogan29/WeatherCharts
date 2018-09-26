@@ -1,0 +1,13 @@
+td, th {
+    vertical-align: middle !important; /*This is not ideal, but was required. due to time constraints. */
+    text-align: center !important; /*This is not ideal, but was required. due to time constraints. */
+}
+
+.input-group {
+    margin: 20px 0px; /* 20 px on top and bottom, 0 on right and left. */
+}
+
+td:first-of-type, td:first-of-type > div {
+    height: 200px;
+    width: 250px;
+}
